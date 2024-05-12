@@ -1,0 +1,113 @@
+.home-page, #pic1 {
+    font-family: 'Georgia', serif;
+}
+
+#top {
+    background-image : url('../public/coffeecover.webp');
+    padding: 10px;
+
+}
+
+#title{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #814D09;
+}
+
+#slogan {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #814D09;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+#shield1{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-right: 150px;
+
+}
+
+#shield2{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 150px;
+}
+
+#pattern{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 150px;
+}
+
+#pic1 {
+    background-image: url("../public/homecoffee1.webp");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic1 h1 {
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pic1 div p {
+    font-size: 30px;
+}
+
+#pic1 div a {
+    background-color: #D8884B;
+    border-color: #D8884B;
+}
+
+#carousel-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#carousel {
+    width: 100%;
+    height: 100%;
+}
+
+#carousel .carousel-inner,
+#carousel .carousel-item,
+#carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+#desch{
+    font-size: 120px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #511101;
+}
+.desc{
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #511101;
+}
